@@ -87,7 +87,12 @@ class RegisterController extends BaseController
             ], 201);
         }
         else{
-            return $this->sendError('Unauthorised.', ['error'=>'Unauthorised']);
+            // return $this->sendError('Unauthorised.', ['error'=>'Unauthorised']);
+            return response()->json([
+                'Username or password Incorrect',
+
+                  'message' => 'User login Failed!!.'
+              ], 404);
         }
     }
 
