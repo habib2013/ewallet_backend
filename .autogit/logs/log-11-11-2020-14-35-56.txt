@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Dec 11 2020 14:35:56 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* app/Http/Controllers/API/RegisterController.php
+
+
+Created files:
+* .autogit/autogit.json
+
+
+Deleted files:
+
+
+Renamed files:
